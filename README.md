@@ -6,7 +6,7 @@
 
 2) Clone your forked repo to your own machine.
 
-3) create a folder for each *independent project*
+3) create a folder for the  **current** independent project
 		
         mc1
         ├── ip1
@@ -16,7 +16,7 @@
         ├── readme.md
         └── README.md
 
-4) Complete the independent project.
+4) Complete the **current** independent project.
 
 5) Push your commits up to your forked repo.
 
