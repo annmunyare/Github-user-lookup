@@ -1,5 +1,6 @@
-Independent Project
-Instructions
+## Independent Project
+
+#### Instructions
 
 1) Fork the Moringa School [mc1](https://github.com/moringaschool/mc1) repo to your own account.
 
