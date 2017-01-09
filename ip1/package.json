@@ -1,0 +1,25 @@
+{
+  "name": "ip1",
+  "version": "0.0.0",
+  "description": "#### _This is a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories._",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "gulp": "~3.9.1",
+    "browserify": "~13.3.0",
+    "vinyl-source-stream": "~1.1.0",
+    "browser-sync": "~2.18.6",
+    "gulp-concat": "~2.6.1",
+    "gulp-uglify": "~2.0.0",
+    "gulp-util": "~3.0.8",
+    "del": "~2.2.2",
+    "jshint": "~2.9.4",
+    "gulp-jshint": "~2.0.4",
+    "gulp-sass": "~3.0.0",
+    "gulp-sourcemaps": "~2.2.3"
+  }
+}

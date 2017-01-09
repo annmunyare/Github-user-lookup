@@ -1,0 +1,21 @@
+{
+  "name": "ip1",
+  "description": "#### _This is a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories._",
+  "main": "gulpfile.js",
+  "authors": [
+    "annmunyare <annmunyare28@yahoo.com>"
+  ],
+  "license": "BSD-2-Clause",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
+  }
+}
