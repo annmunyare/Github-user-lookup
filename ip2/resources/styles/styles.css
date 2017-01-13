@@ -1,0 +1,45 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 5%;
+}
+h1, h2{
+  text-align: center;
+}
+
+.option {
+  font-size: 18px;
+  padding: 1px;
+}
+
+.center {
+  text-align: center;
+  padding: 15px;
+}
+.pies, .new-task, .edit-task {
+  border: 1px solid #bfbfbf;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 50px;
+  box-shadow: 3px 3px 3px #a9a9a9;
+}
+.task-list {
+  background-color: #fff4b3;
+  padding: 15px;
+  margin: 25px;
+  width: 500px;
+  margin-left: 27%;
+}
+
+.filter {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.edit-btn {
+  border: none;
+  background: transparent;
+  color: red;
+  font-size: 12px;
+  margin-top: -30px;
+  margin-bottom: 10px;
+  float: right;
+}
