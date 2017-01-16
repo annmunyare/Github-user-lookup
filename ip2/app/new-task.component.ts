@@ -20,16 +20,21 @@ import { Task } from './task.model';
         </div>
       <div>
         <label>Calorie-Index</label>
-        <select class="form-control">
+        <select #newPriority class="form-control">
           <option value="high">High</option>
           <option value="medium">Medium</option>
           <option value="low">Low</option>
         </select>
 
-
         <br>
-        <button class="btn btn-danger center-block" >
-        Add</button>
+        <button class="btn btn-danger center-block" (click)="
+        addClicked(newDescription.value, newDetails.value,newId.value, newPriority.value);
+        newDescription.value='';
+        newDetails.value='';
+        newId.value='';
+        newPriority.value='';
+
+        ">Add</button>
       </div>
     </div>
   `
