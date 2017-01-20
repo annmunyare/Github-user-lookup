@@ -1,0 +1,14 @@
+{{#if showQuestionForm}}
+<form>
+  <label for="text">Question:</label>
+  {{input value=text id="text"}}
+
+  <label for="author">Author:</label>
+  {{input value=author id="author"}}
+
+  <button {{action 'saveQuestion' question}}>Save Question</button>
+  <button {{action 'hideQuestionForm'}}>Cancel</button>
+</form>
+{{else}}
+<button id="ask" {{action 'showQuestionForm'}}>Ask A Question</button>
+{{/if}}

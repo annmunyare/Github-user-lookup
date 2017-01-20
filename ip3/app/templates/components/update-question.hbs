@@ -1,0 +1,11 @@
+{{#if showQuestionUpdate}}
+  <form>
+    <label for="text">Question:</label>
+    {{input value=text id="text" placeholder=post.text}}
+
+    <button {{action 'update' question}}>Edit Question</button>
+    <button {{action 'hideQuestionUpdate'}}>Cancel</button>
+  </form>
+{{else}}
+  <button {{action 'showQuestionUpdate'}}>Update This Question</button>
+{{/if}}

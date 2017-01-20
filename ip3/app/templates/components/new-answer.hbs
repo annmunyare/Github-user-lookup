@@ -1,0 +1,16 @@
+{{#if showAnswerForm}}
+<div>
+  <form>
+    <label for="text">Your Answer:</label>
+    {{textarea value=text id="text"}}
+
+    <label for="author">Your name:</label>
+    {{input value=author id="author"}}
+
+    <button {{action 'saveAnswer'}}>Save Answer</button>
+    <button {{action 'hideAnswerForm'}}>Cancel</button>
+  </form>
+</div>
+{{else}}
+  <button {{action 'showAnswerForm'}}>Answer Question</button>
+{{/if}}

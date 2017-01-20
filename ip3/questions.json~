@@ -1,0 +1,14 @@
+{ "questions": [{
+    "author": "Jade",
+    "text": "What is Ember?"
+    }, {
+    "author": "Jane",
+    "text": "How do you make a globe map?"
+    }, {
+    "author": "Jasmine",
+    "text": "What are nut locks?"
+    }, {
+    "author": "June",
+    "text": "Where is Cuba?"
+  }]
+}

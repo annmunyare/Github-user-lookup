@@ -1,0 +1,20 @@
+.ember-application {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  text-align: center;
+}
+
+button {
+  margin: 3px;
+  &#ask {
+    width: 100px;
+    margin-left: calc(50vw - 50px);
+  }
+}
+
+h3 {
+  margin-left: 10px;
+}

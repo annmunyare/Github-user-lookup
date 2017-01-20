@@ -1,0 +1,12 @@
+{{new-question question=question saveQuestion="saveQuestion"}}
+
+<h3>Questions:</h3>
+<ul>
+  {{#each model as |question|}}
+    {{question-tile question=question}}
+  {{/each}}
+</ul>
+
+<h3>Favorite Questions:</h3>
+
+{{display-favorites}}

@@ -1,0 +1,36 @@
+.ember-application {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  border: 1px solid #bfbfbf;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 50px;
+  box-shadow: 3px 3px 3px #a9a9a9;
+}
+
+button {
+  margin: 3px;
+  color: blue;
+}
+
+button#ask {
+  width: 400px;
+  margin-left: calc(30vw - 30px);
+  color: red;
+}
+
+h3 {
+  margin-left: 10px;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/*# sourceMappingURL=app.css.map */
