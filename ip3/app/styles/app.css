@@ -1,9 +1,11 @@
 .ember-application {
-  margin: 0px;
-  padding: 0px;
+  margin: 50px;
+  padding: 50px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-header {
+
+/*header {
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   border: 1px solid #bfbfbf;
@@ -11,6 +13,10 @@ header {
   border-radius: 20px;
   margin: 50px;
   box-shadow: 3px 3px 3px #a9a9a9;
+}*/
+
+header {
+  margin-bottom: 100px;
 }
 
 button {
