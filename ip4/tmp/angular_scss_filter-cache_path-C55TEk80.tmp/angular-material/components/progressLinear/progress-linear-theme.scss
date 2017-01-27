@@ -1,0 +1,44 @@
+md-progress-linear.md-default-theme , md-progress-linear {
+  .md-container {
+    background-color: color($primary, "100");
+  }
+
+  .md-bar {
+    background-color: color($primary, "500");
+  }
+
+  &.md-warn .md-container {
+    background-color: color($warn, "100");
+  }
+
+  &.md-warn .md-bar {
+    background-color: color($warn, "500");
+  }
+
+  &.md-accent .md-container {
+    background-color: color($accent, "100");
+  }
+
+  &.md-accent .md-bar {
+    background-color: color($accent, "A200");
+  }
+
+  &[md-mode=buffer] {
+    &.md-warn {
+      .md-bar1 {
+        background-color: color($warn, "100");
+      }
+      .md-dashed:before {
+        background: radial-gradient(color($warn, "100") 0%, color($warn, "100") 16%, transparent 42%);
+      }
+    }
+    &.md-accent {
+      .md-bar1 {
+        background-color: color($accent, "100");
+      }
+      .md-dashed:before {
+        background: radial-gradient(color($accent, "100") 0%, color($accent, "100") 16%, transparent 42%);
+      }
+    }
+  }
+}

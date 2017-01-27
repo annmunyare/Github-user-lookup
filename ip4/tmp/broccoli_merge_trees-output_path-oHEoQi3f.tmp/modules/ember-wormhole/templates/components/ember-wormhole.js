@@ -1,0 +1,1 @@
+/home/nyambura/Desktop/hike-kenya/tmp/broccoli_merge_trees-input_base_path-mgY9F1Jj.tmp/5/modules/ember-wormhole/templates/components/ember-wormhole.js

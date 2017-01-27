@@ -1,0 +1,1 @@
+/home/nyambura/Desktop/hike-kenya/app/components/admin-tile.js

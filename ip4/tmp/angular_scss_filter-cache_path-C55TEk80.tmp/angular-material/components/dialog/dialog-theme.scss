@@ -1,0 +1,13 @@
+$dialog-border-radius: 4px !default;
+
+md-dialog.md-default-theme , md-dialog {
+  border-radius: $dialog-border-radius;
+  background-color: color($background, "A100");
+
+  &.md-content-overflow {
+    .md-actions, md-dialog-actions {
+      border-top-color: rgba(0,0,0,0.12);
+    }
+  }
+}
+

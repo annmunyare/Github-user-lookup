@@ -1,0 +1,35 @@
+$card-border-radius: 2px !default;
+
+md-card.md-default-theme , md-card {
+  background-color: color($background, "A100");
+  border-radius: $card-border-radius;
+
+  .md-card-image {
+    border-radius: $card-border-radius $card-border-radius 0 0;
+  }
+
+  md-card-header {
+    md-card-avatar {
+      md-icon {
+        color: color($background, "A100");
+        background-color: rgba(0,0,0,0.26);
+      }
+    }
+
+    md-card-header-text {
+      .md-subhead {
+        color: rgba(0,0,0,0.54)
+      }
+    }
+  }
+
+  md-card-title {
+    md-card-title-text {
+      &:not(:only-child) {
+        .md-subhead {
+          color: rgba(0,0,0,0.54);
+        }
+      }
+    }
+  }
+}

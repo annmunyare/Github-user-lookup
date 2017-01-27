@@ -1,0 +1,11 @@
+<!--<div class="hike-tile">
+  {{#each model as |hike|}}
+    {{hike-tile hike=hike}}
+  {{/each}}
+</div>-->
+
+{{#paper-content class="md-padding"}}
+{{#each model as |hike|}}
+  {{hike-tile hike=hike}}
+{{/each}}
+{{/paper-content}}

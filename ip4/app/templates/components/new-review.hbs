@@ -1,0 +1,16 @@
+<h4>Add a Review</h4>
+<div>
+  <form>
+    <label for="username">author:</label>{{input value=username id="username"}}
+    <label for="comment">comment:</label>{{input value=comment id="comment"}}
+    <label for="review">review:</label>
+    {{#x-select value=rating id="review" }}
+      {{#x-option value=1}}1{{/x-option}}
+      {{#x-option value=2}}2{{/x-option}}
+      {{#x-option value=3}}3{{/x-option}}
+      {{#x-option value=4}}4{{/x-option}}
+      {{#x-option value=5}}5{{/x-option}}
+    {{/x-select}}
+    <button {{action 'addReview'}}>Save</button>
+  </form>
+</div>

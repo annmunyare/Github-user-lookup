@@ -1,0 +1,38 @@
+{"hikes": [{
+    "name": "Mt Longonot",
+    "location": "Naivasha.",
+    "state": "nice",
+    "distance": "3.00",
+    "difficulty":" medium",
+    "image" : "/assets/img/longonot.jpg",
+    "timestamp": ""
+    },
+    {
+        "name": "Menengai",
+        "location": "Nakuru.",
+        "state": "nice",
+        "distance": "5.00",
+        "difficulty":" easy",
+        "image" : "/assets/img/menengai.jpg",
+        "timestamp": ""
+      },
+        {
+            "name": "Mt Kenya",
+            "location": "Nyeri.",
+            "state": "nice",
+            "distance": "6.00",
+            "difficulty":" hard",
+            "image" : "/assets/img/mtkenya.jpg",
+            "timestamp": ""
+          },
+            {
+                "name": "Hells Gate",
+                "location": "Naivasha.",
+                "state": "nice",
+                "distance": "4.00",
+                "difficulty":" hard",
+                "image" : "/assets/img/hellsgate.jpg",
+                "timestamp": ""
+                }
+          ]
+}

@@ -1,0 +1,16 @@
+md-icon.md-default-theme , md-icon {
+  color: rgba(0,0,0,0.54);
+
+  &.md-primary {
+    color: color($primary, "500");
+  }
+
+  &.md-accent {
+    color: color($accent, "A200");
+  }
+
+  &.md-warn {
+    color: color($warn, "500");
+  }
+}
+

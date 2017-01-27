@@ -1,0 +1,1 @@
+/home/nyambura/Desktop/hike-kenya/node_modules/ember-cli/lib/broccoli/testem.js

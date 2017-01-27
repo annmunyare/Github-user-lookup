@@ -1,0 +1,12 @@
+<h1>Please Sign In</h1>
+{{input type='text' value=email placeholder='email'}}
+{{input type='password' value=password placeholder='password'}}
+{{#if session.isWorking}}
+  <button disabled='disabled'>
+      {{fa-icon 'spinner' spin=true}} Signing in...
+  </button>
+{{else}}
+  <button {{action 'signIn' 'password'}}>
+     {{fa-icon 'sign-in'}} Sign In
+  </button>
+{{/if}}

@@ -1,0 +1,38 @@
+<!--<h2 id="title">Welcome to Hike Rater</h2>
+<nav>
+  <li>{{#link-to 'index'}}Home{{/link-to}}</li>
+  {{#if session.isAuthenticated}}
+    <li>{{#link-to 'new'}}Add New Hike{{/link-to}}</li>
+    <button {{action 'signOut'}}>
+      {{fa-icon 'sign-out'}} Sign Out
+    </button>
+  {{else}}
+    <li>{{#link-to 'sign-in'}}Sign-In{{/link-to}}</li>
+    <li>{{#link-to 'sign-up'}}Sign-Up{{/link-to}}</li>
+  {{/if}}
+</nav>
+
+{{outlet}}-->
+
+<header>
+  {{#paper-toolbar}}
+  <div class="md-toolbar-tools">
+    {{#paper-button}}Hike Kenya{{/paper-button}}
+    {{#link-to 'index'}}{{#paper-button}}Home{{/paper-button}}{{/link-to}}
+
+    {{#if session.isAuthenticated}}
+      {{#link-to 'new'}}Add New Hike{{/link-to}}
+      <button {{action 'signOut'}}>
+        {{fa-icon 'sign-out'}} Sign Out
+      </button>
+    {{else}}
+      {{#link-to 'sign-in'}}{{#paper-button}}Sign-In{{/paper-button}}{{/link-to}}
+      {{#link-to 'sign-up'}}{{#paper-button}}Sign-Up{{/paper-button}}{{/link-to}}
+    {{/if}}
+
+  </div>
+{{/paper-toolbar}}
+</header>
+
+
+  {{outlet}}

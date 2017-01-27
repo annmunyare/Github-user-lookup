@@ -1,0 +1,71 @@
+md-select.md-default-theme , md-select {
+  &[disabled] .md-select-value {
+    border-bottom-color: transparent;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.26) 0%, rgba(0,0,0,0.26) 33%, transparent 0%);
+    background-image: -ms-linear-gradient(left, transparent 0%, rgba(0,0,0,0.26) 100%);
+  }
+  .md-select-value {
+    &.md-select-placeholder {
+      color: rgba(0,0,0,0.26);
+    }
+    border-bottom-color: rgba(0,0,0,0.12);
+  }
+  &.ng-invalid.ng-dirty {
+    .md-select-value {
+      color: color($warn, "A700") !important;
+      border-bottom-color: color($warn, "A700") !important;
+    }
+  }
+  &:not([disabled]):focus {
+    .md-select-value {
+      border-bottom-color: color($primary, "500");
+      color: rgba(0,0,0,0.87);
+      &.md-select-placeholder {
+        color: rgba(0,0,0,0.87);
+      }
+    }
+    &.md-accent .md-select-value {
+      border-bottom-color: color($accent, "A200");
+    }
+    &.md-warn .md-select-value {
+      border-bottom-color: color($warn, "500");
+    }
+  }
+  &[disabled] {
+    .md-select-value {
+      color: rgba(0,0,0,0.26);
+      &.md-select-placeholder {
+        color: rgba(0,0,0,0.26);
+      }
+    }
+  }
+}
+
+md-select-menu.md-default-theme , md-select-menu {
+  md-option[disabled] {
+    color: rgba(0,0,0,0.26);
+  }
+
+  md-optgroup {
+    color: rgba(0,0,0,0.54);
+    md-option {
+      color: rgba(0,0,0,0.87);
+    }
+  }
+  md-option[selected] {
+    color: color($primary, "500");
+    &:focus {
+      color: color($primary, "600");
+    }
+    &.md-accent {
+      color: color($accent, "500");
+      &:focus {
+        color: color($accent, "600");
+      }
+    }
+  }
+  md-option:focus:not([disabled]):not([selected]) {
+    background: color($background, "200");
+  }
+
+}

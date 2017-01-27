@@ -1,0 +1,1 @@
+/home/nyambura/Desktop/hike-kenya/tmp/funnel-input_base_path-G8i1AJ1I.tmp/bower_components/ember-cli-test-loader/test-loader.js

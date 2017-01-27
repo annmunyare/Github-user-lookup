@@ -1,0 +1,93 @@
+md-slider.md-default-theme , md-slider {
+
+  .md-track {
+    background-color: rgba(0,0,0,0.26);
+  }
+  .md-track-ticks {
+    background-color: rgba(0,0,0,0.12);
+  }
+  .md-focus-thumb {
+    background-color: rgba(0,0,0,0.54);
+  }
+  .md-focus-ring {
+    background-color: color($accent, "A200");
+  }
+  .md-disabled-thumb {
+    border-color: color($background, "A100");
+  }
+  &.md-min .md-thumb:after {
+    background-color: color($background, "A100");
+  }
+
+  .md-track.md-track-fill {
+    background-color: color($accent, "A200");
+  }
+  .md-thumb:after {
+    border-color: color($accent, "A200");
+    background-color: color($accent, "A200");
+  }
+  .md-sign {
+    background-color: color($accent, "A200");
+    &:after {
+      border-top-color: color($accent, "A200");
+    }
+  }
+  .md-thumb-text {
+    color: color($accent, "contrast");
+  }
+
+  &.md-warn {
+    .md-focus-ring {
+      background-color: color($warn, "500");
+    }
+    .md-track.md-track-fill {
+      background-color: color($warn, "500");
+    }
+    .md-thumb:after {
+      border-color: color($warn, "500");
+      background-color: color($warn, "500");
+    }
+    .md-sign {
+      background-color: color($warn, "500");
+
+      &:after {
+        border-top-color: color($warn, "500");
+      }
+    }
+    .md-thumb-text {
+      color: color($warn, "contrast");
+    }
+  }
+
+  &.md-primary {
+    .md-focus-ring {
+      background-color: color($primary, "500");
+    }
+    .md-track.md-track-fill {
+      background-color: color($primary, "500");
+    }
+    .md-thumb:after {
+      border-color: color($primary, "500");
+      background-color: color($primary, "500");
+    }
+    .md-sign {
+      background-color: color($primary, "500");
+
+      &:after {
+        border-top-color: color($primary, "500");
+      }
+    }
+    .md-thumb-text {
+      color: color($primary, "contrast");
+    }
+  }
+
+  &[disabled] {
+    .md-thumb:after {
+      border-color: rgba(0,0,0,0.26);
+    }
+    &:not(.md-min) .md-thumb:after {
+      background-color: rgba(0,0,0,0.26);
+    }
+  }
+}

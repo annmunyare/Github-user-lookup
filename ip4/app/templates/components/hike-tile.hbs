@@ -1,0 +1,12 @@
+{{#link-to 'hike' hike.id}}
+    <h2>{{hike.name}}</h2><br>
+    <img src="{{hike.image}}"/>
+{{/link-to}}
+
+{{#if admin}}
+  <p>admin working</p>
+    <!-- {{#link-to 'update' question.id}}
+      <button type="button">Update</button>
+    {{/link-to}}
+    <button {{action 'deleteQuestion' question}}>Delete</button> -->
+  {{/if}}

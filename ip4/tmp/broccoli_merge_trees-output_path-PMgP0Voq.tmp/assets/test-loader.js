@@ -1,0 +1,1 @@
+/home/nyambura/Desktop/hike-kenya/bower_components/ember-cli-test-loader/test-loader.js

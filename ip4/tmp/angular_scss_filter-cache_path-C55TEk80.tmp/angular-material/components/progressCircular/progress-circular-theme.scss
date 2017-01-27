@@ -1,0 +1,71 @@
+
+md-progress-circular.md-default-theme , md-progress-circular {
+  background-color: transparent;
+  .md-inner {
+    .md-gap {
+      border-top-color: color($primary, "500");
+      border-bottom-color: color($primary, "500");
+    }
+    .md-left, .md-right {
+      .md-half-circle {
+        border-top-color: color($primary, "500");
+      }
+    }
+    .md-right {
+      .md-half-circle {
+        border-right-color: color($primary, "500");
+      }
+    }
+    .md-left {
+      .md-half-circle {
+        border-left-color: color($primary, "500");
+      }
+    }
+  }
+  &.md-warn {
+    .md-inner {
+      .md-gap {
+        border-top-color: color($warn, "500");
+        border-bottom-color: color($warn, "500");
+      }
+      .md-left, .md-right {
+        .md-half-circle {
+          border-top-color: color($warn, "500");
+        }
+      }
+      .md-right {
+        .md-half-circle {
+          border-right-color: color($warn, "500");
+        }
+      }
+      .md-left {
+        .md-half-circle {
+          border-left-color: color($warn, "500");
+        }
+      }
+    }
+  }
+  &.md-accent {
+    .md-inner {
+      .md-gap {
+        border-top-color: color($accent, "A200");
+        border-bottom-color: color($accent, "A200");
+      }
+      .md-left, .md-right {
+        .md-half-circle {
+          border-top-color: color($accent, "A200");
+        }
+      }
+      .md-right {
+        .md-half-circle {
+          border-right-color: color($accent, "A200");
+        }
+      }
+      .md-left {
+        .md-half-circle {
+          border-left-color: color($accent, "A200");
+        }
+      }
+    }
+  }
+}

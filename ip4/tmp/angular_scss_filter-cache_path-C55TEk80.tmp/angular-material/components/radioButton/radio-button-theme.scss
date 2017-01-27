@@ -1,0 +1,107 @@
+
+md-radio-button.md-default-theme , md-radio-button {
+  .md-off {
+    border-color: rgba(0,0,0,0.54);
+  }
+
+  .md-on {
+    background-color: rgba(color($accent, "A200"), 0.87);
+  }
+  &.md-checked .md-off {
+    border-color: rgba(color($accent, "A200"), 0.87);
+  }
+  &.md-checked .md-ink-ripple {
+    color: rgba(color($accent, "A200"), 0.87);
+  }
+  .md-container .md-ripple {
+    color: color($accent, "600");
+  }
+}
+
+md-radio-group.md-default-theme, md-radio-group,
+md-radio-button.md-default-theme , md-radio-button {
+
+  &:not([disabled]) {
+    .md-primary,
+    &.md-primary {
+      .md-on {
+        background-color: rgba(color($primary, "500"), 0.87);
+      }
+      .md-checked,
+      &.md-checked {
+        .md-off {
+          border-color: rgba(color($primary, "500"), 0.87);
+        }
+      }
+      .md-checked,
+      &.md-checked {
+        .md-ink-ripple {
+          color: rgba(color($primary, "500"), 0.87);
+        }
+      }
+      .md-container .md-ripple {
+        color: color($primary, "600");
+      }
+    }
+
+    .md-warn,
+    &.md-warn {
+      .md-on {
+        background-color: rgba(color($warn, "500"), 0.87);
+      }
+      .md-checked,
+      &.md-checked {
+        .md-off {
+          border-color: rgba(color($warn, "500"), 0.87);
+        }
+      }
+      .md-checked,
+      &.md-checked {
+        .md-ink-ripple {
+          color: rgba(color($warn, "500"), 0.87);
+        }
+      }
+      .md-container .md-ripple {
+        color: color($warn, "600");
+      }
+    }
+
+  }
+
+  &[disabled] {
+    color: rgba(0,0,0,0.26);
+
+    .md-container .md-off {
+      border-color: rgba(0,0,0,0.26);
+    }
+    .md-container .md-on {
+      border-color: rgba(0,0,0,0.26);
+    }
+  }
+
+}
+md-radio-group.md-default-theme , md-radio-group {
+  .md-checked .md-ink-ripple {
+    color: rgba(color($accent, "A200"), 0.26);
+  }
+  &.md-primary .md-checked:not([disabled]) .md-ink-ripple, .md-checked:not([disabled]).md-primary .md-ink-ripple {
+    color: rgba(color($primary, "500"), 0.26);
+  }
+  .md-checked.md-primary .md-ink-ripple {
+    color: rgba(color($warn, "500"), 0.26);
+  }
+}
+
+md-radio-group.md-default-theme.md-focused:not(:empty) , md-radio-group.md-focused:not(:empty) {
+  .md-checked .md-container:before {
+    background-color: rgba(color($accent, "A200"), 0.26);
+  }
+  &.md-primary .md-checked .md-container:before,
+  .md-checked.md-primary .md-container:before {
+    background-color: rgba(color($primary, "500"), 0.26);
+  }
+  &.md-warn .md-checked .md-container:before,
+  .md-checked.md-warn .md-container:before {
+    background-color: rgba(color($warn, "500"), 0.26);
+  }
+}

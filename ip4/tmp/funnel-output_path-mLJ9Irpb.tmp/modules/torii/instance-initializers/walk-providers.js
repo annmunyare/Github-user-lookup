@@ -1,0 +1,1 @@
+/home/nyambura/Desktop/hike-kenya/tmp/funnel-input_base_path-zXytZIkg.tmp/instance-initializers/walk-providers.js

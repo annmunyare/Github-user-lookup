@@ -1,0 +1,1 @@
+/home/nyambura/Desktop/hike-kenya/tmp/funnel-input_base_path-YTF4fyrA.tmp/adapters/rest.js

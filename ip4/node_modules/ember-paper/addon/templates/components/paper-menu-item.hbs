@@ -1,0 +1,7 @@
+{{#if onClick}}
+  {{#paper-button onClick="handleClick" disabled=disabled}}
+    {{yield}}
+  {{/paper-button}}
+{{else}}
+  {{yield}}
+{{/if}}

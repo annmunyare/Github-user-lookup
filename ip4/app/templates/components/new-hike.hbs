@@ -1,0 +1,12 @@
+<div id="new-hike-form">
+  <h3>Add a New Hike</h3>
+  <form>
+    <label for="name">Name:</label>{{input value=name id='name'}}<br>
+    <label for="location">Location:</label>{{input value=location id='location'}}<br>
+    <label for="state">State:</label>{{input value=state id='state'}}<br>
+    <label for="distance">Distance:</label>{{input value=distance id='distance'}}<br>
+    <label for="difficulty">Difficulty:</label>{{input value=difficulty id='difficulty'}}<br>
+    <label for="image">Image:</label>{{input value=image id='image'}}<br>
+    <button {{action 'saveHike'}}>Save</button>
+  </form>
+</div>

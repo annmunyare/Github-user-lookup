@@ -1,0 +1,21 @@
+md-toolbar.md-default-theme:not(.md-menu-toolbar) , md-toolbar:not(.md-menu-toolbar) {
+  background-color: color($primary, "500");
+  color: color($primary, "contrast");
+
+  md-icon {
+    color: color($primary, "contrast");
+  }
+
+  .md-button:not(.md-raised) {
+    color: color($primary, "contrast");
+  }
+
+  &.md-accent {
+    background-color: color($accent, "A200");
+    color: color($accent, "contrast");
+  }
+  &.md-warn {
+    background-color: color($warn, "500");
+    color: color($warn, "contrast");
+  }
+}

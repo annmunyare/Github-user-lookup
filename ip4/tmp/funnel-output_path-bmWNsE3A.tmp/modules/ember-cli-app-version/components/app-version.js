@@ -1,0 +1,1 @@
+/home/nyambura/Desktop/hike-kenya/tmp/funnel-input_base_path-Exsu4Llt.tmp/components/app-version.js

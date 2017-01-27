@@ -1,0 +1,9 @@
+md-divider.md-default-theme , md-divider {
+  border-top-color: rgba(0,0,0,0.12);
+}
+
+.layout-row {
+  & > md-divider.md-default-theme ,  > md-divider {
+    border-right-color: rgba(0,0,0,0.12);
+  }
+}

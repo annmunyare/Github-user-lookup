@@ -1,0 +1,1 @@
+/home/nyambura/Desktop/hike-kenya/node_modules/ember-power-select/app/helpers/ember-power-select-is-group.js

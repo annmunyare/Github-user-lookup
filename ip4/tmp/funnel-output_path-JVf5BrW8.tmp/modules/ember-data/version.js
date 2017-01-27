@@ -1,0 +1,1 @@
+/home/nyambura/Desktop/hike-kenya/tmp/creator-output_path-U6Vbt0bP.tmp/version.js
