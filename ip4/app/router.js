@@ -1,3 +1,5 @@
+// Routes (pages) to be used in app
+
 import Ember from 'ember';
 import config from './config/environment';
 
@@ -6,11 +8,11 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.authenticatedRoute('new');
-  this.route('hike', {path: 'hike/:hike_id'});
-  this.route('admin');
-  this.route('sign-up');
-  this.route('sign-in');
+  this.route('about');
+  this.route('contact');
+  this.route('question', {path: '/question/:question_id'});
+  this.route('answer', {path: '/answer/:answer_id'});
+  this.route('favorite-question-list');
 });
 
 export default Router;

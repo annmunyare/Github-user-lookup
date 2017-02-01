@@ -1,0 +1,51 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 48px;
+  color: pink;
+}
+
+.navbar {
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+li {
+  font-size: 16px;
+  list-style-type: none;
+}
+
+.displayText:hover {
+  color: grey;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.glyphicon {
+  font-size: 20px;
+  color: red;
+}
+
+.glyphicon-star-empty {
+  color: red;
+}
+
+.icon-key {
+  font-size: 16px;
+}
+
+.legend {
+  float: right;
+}
+
+.font-16 {
+  font-size: 16pt;
+}

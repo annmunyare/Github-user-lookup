@@ -1,11 +1,29 @@
-<!--<div class="hike-tile">
-  {{#each model as |hike|}}
-    {{hike-tile hike=hike}}
-  {{/each}}
-</div>-->
+<!-- Primary template -->
+<!-- Displays home page using question-tile.hbs -->
+<!-- Parent of about, contact, question, and answer .hbs files -->
 
-{{#paper-content class="md-padding"}}
-{{#each model as |hike|}}
-  {{hike-tile hike=hike}}
-{{/each}}
-{{/paper-content}}
+<h2>Questions:</h2>
+
+<div class="container">
+
+  <div class="row">
+    <div class="row">
+      <p class="legend"><span class=></span><h3>Tips</h3></p>
+    </div>
+
+    <p  class="legend"><span class="glyphicon glyphicon-question-sign icon-key"></span>: Unanswered questions</p>
+  </div>
+  <div class="row">
+    <p class="legend"><span class="glyphicon glyphicon-heart-empty icon-key"></span>: Questions with more than 3 answers</p>
+  </div>
+</div>
+
+<!-- List of questions on home page come from question-tile.hbs -->
+<ul>
+  {{#each model.questions as |question|}}
+    {{date-asked question}} {{question-tile question=question}}<br>
+  {{/each}}
+</ul>
+
+<!-- New question data is sent here from new-question.js sendAction -->
+{{new-question save="save"}}

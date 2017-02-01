@@ -2,26 +2,21 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'hike-kenya',
+    modulePrefix: 'questions-answers',
     environment: environment,
-    rootURL: '/',
+    baseURL: '/',
     locationType: 'auto',
+    firebase: {
+    apiKey: "AIzaSyA-iTYozTxIQp0xPjgWe66mprkInjnpUiE",
+    authDomain: "questions-answers-6360b.firebaseapp.com",
+    databaseURL: "https://questions-answers-6360b.firebaseio.com",
+    storageBucket: "questions-answers-6360b.appspot.com",
+    },
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
-      },
-      EXTEND_PROTOTYPES: {
-        // Prevent Ember Data from overriding Date.parse.
-        Date: false
       }
-    },
-    firebase: {
-      apiKey: "AIzaSyB7ZRMWmvqRECnqchrQpIq5MSLj-Bk1_p4",
-      authDomain: "hike-kenya-6a57b.firebaseapp.com",
-      databaseURL: "https://hike-kenya-6a57b.firebaseio.com",
-      storageBucket: "hike-kenya-6a57b.appspot.com",
-      messagingSenderId: "1046039743726"
     },
 
     APP: {
@@ -40,6 +35,7 @@ module.exports = function(environment) {
 
   if (environment === 'test') {
     // Testem prefers this...
+    ENV.baseURL = '/';
     ENV.locationType = 'none';
 
     // keep test console output quieter

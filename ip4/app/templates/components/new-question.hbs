@@ -1,0 +1,30 @@
+<!-- Form for asking new question -->
+<!-- Accessed from index.hbs page -->
+<!-- Saves to database correctly -->
+<!-- Child of question.hbs -->
+
+{{#if addNewQuestion}}
+  <h3>New Question</h3>
+    <div>
+      <form>
+        <div class="form-group">
+          <label for="question">Question</label>
+          {{textarea value=question id="question" rows=3 class="form-control"}}
+        </div>
+
+        <div class="form-group">
+          <label for="author">Author</label>
+          {{input value=author id="author"}}
+        </div>
+
+        <div class="form-group">
+          <label for="notes">Additional Information</label>
+          {{textarea value=notes id="notes" rows=1 class="form-control"}}
+        </div>
+
+        <button class="btn btn-primary btn-sm" {{action 'save'}}>Save</button>
+      </form>
+    </div>
+{{else}}
+  <button class="btn btn-primary btn-sm" {{action 'questionFormShow'}}>Ask a New Question</button>
+{{/if}}
